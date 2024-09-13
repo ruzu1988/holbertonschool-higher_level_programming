@@ -1,5 +1,5 @@
-a = 5
+#!/usr/bin/python3
+a = 5 
 b = 10
 a, b = b, a
-print("a =", a)
-print("b =", b)
+print("a =", a, "b =", b)
