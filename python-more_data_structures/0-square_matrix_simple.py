@@ -1,4 +1,4 @@
-#!/usr/bin/pyrhon3
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     return [[element ** 2 for element in row] for row in matrix]
 matrix = [[1, 2, 3], [4, 5, 6]]
