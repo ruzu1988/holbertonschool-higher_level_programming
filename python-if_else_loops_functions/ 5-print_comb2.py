@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for index in range(100):
-    print(f"{index
+for idx in range(0, 100):
+    if idx < 99:
+        print("{:02d}, ".format(idx), end="")
+    else:
+        print("{:02d}".format(idx))
     
